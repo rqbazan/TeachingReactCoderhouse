@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Black Hat",
+    "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.",
+    "price": "$80.00",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "title": "Lightweight Jacket",
+    "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!",
+    "price": "$249.99",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "title": "Black Hat",
+    "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.",
+    "price": "$80.00",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 4,
+    "title": "Lightweight Jacket",
+    "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!",
+    "price": "$249.99",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 5,
+    "title": "Black Hat",
+    "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.",
+    "price": "$80.00",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 6,
+    "title": "Lightweight Jacket",
+    "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!",
+    "price": "$249.99",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 7,
+    "title": "Black Hat",
+    "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.",
+    "price": "$80.00",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "title": "Lightweight Jacket",
+    "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!",
+    "price": "$249.99",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 9,
+    "title": "Black Hat",
+    "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.",
+    "price": "$80.00",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 10,
+    "title": "Lightweight Jacket",
+    "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!",
+    "price": "$249.99",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 11,
+    "title": "Black Hat",
+    "description": "The Next.js beanie has arrived! This embroidered beauty has a snug fit that ensures you're going to feel cozy and warm whatever you're doing.",
+    "price": "$80.00",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+    "stock": 10
+  },
+  {
+    "id": 12,
+    "title": "Lightweight Jacket",
+    "description": "Add a little zing to your winter wardrobe with this vibrant Winter-breaker Jacket. With a brushed fleece inside, and a relaxed unisex fit, this jacket is just the stuff of the dreams, so be quick to grab yourself one!",
+    "price": "$249.99",
+    "pictureUrl": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+    "stock": 10
+  }
+]

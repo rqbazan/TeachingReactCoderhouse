@@ -1,11 +1,10 @@
-import * as React from 'react'
 import { NavBar, ItemListContainer } from './components'
 
 export default function App() {
   return (
-    <React.Fragment>
+    <div className="flex flex-col">
       <NavBar />
       <ItemListContainer />
-    </React.Fragment>
+    </div>
   )
 }

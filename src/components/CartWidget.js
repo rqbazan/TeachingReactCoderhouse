@@ -14,7 +14,6 @@ export function CartWidget({ numOfItems }) {
         strokeWidth="3"
         strokeLinecap="round"
         strokeLinejoin="round"
-        class="feather feather-shopping-cart"
       >
         <circle cx="9" cy="21" r="1"></circle>
         <circle cx="20" cy="21" r="1"></circle>
