@@ -1,12 +1,12 @@
 export function Item({ product }) {
   return (
-    <div className="relative w-80 h-80 bg-gray-100">
-      <div className="absolute flex flex-col items-start">
+    <div className="relative w-80 h-80 bg-gray-100 z-[1]">
+      <div className="absolute flex flex-col items-start z-10">
         <div className="text-lg font-bold p-2 bg-gray-900 text-white">
           {product.title}
         </div>
         <div className="text-lg font-bold p-2 bg-gray-900 text-white">
-          {product.price}
+          {product.price.value} {product.price.currencyCode}
         </div>
       </div>
       <div className="absolute inset-0">
