@@ -1,6 +1,6 @@
 export function Item({ product }) {
   return (
-    <div className="relative w-80 h-80 bg-gray-100 z-[1]">
+    <div className="relative min-w-[310px] h-80 bg-gray-100 z-[1] overflow-hidden">
       <div className="absolute flex flex-col items-start z-10">
         <div className="text-lg font-bold p-2 bg-gray-900 text-white">
           {product.title}
@@ -9,7 +9,7 @@ export function Item({ product }) {
           {product.price.value} {product.price.currencyCode}
         </div>
       </div>
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 transform transition hover:scale-125 ease-in-out">
         <img
           src={product.pictureUrl}
           alt={product.title}

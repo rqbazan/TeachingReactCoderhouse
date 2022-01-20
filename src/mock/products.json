@@ -8,6 +8,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "hat",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/115/489/Hat-front-black__72990.1603748583.png"
   },
   {
@@ -19,6 +20,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/116/512/Men-Jacket-Front-Black__15466.1603283963.png"
   },
   {
@@ -30,6 +32,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/117/534/Men-TShirt-Black-Front__70046.1603748348.png"
   },
   {
@@ -41,6 +44,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "mask",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/118/508/Surgical-Mask-Black__89554.1603756821.png"
   },
   {
@@ -52,6 +56,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "t-shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/119/398/mockup-31b14bb5__19161.1603748166.png"
   },
   {
@@ -63,6 +68,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "t-shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/120/402/mockup-521d0b16__86945.1603748107.png"
   },
   {
@@ -74,6 +80,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "t-shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/121/406/mockup-a0dc2330__62146.1601012861.png"
   },
   {
@@ -85,6 +92,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/122/412/mockup-008b81ff__29393.1603748041.jpg"
   },
   {
@@ -96,6 +104,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/124/415/mockup-c2bbbaf4__00019.1601229493.png"
   },
   {
@@ -107,6 +116,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/125/420/mockup-7500e8eb__78586.1601229597.png"
   },
   {
@@ -118,6 +128,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "unisex",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/126/423/mockup-9c5e3634__60853.1603747807.png"
   },
   {
@@ -129,6 +140,7 @@
       "currencyCode": "USD"
     },
     "stock": 100,
+    "categoryId": "unisex",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/127/431/mockup-9fc4c1cf__88683.1601229845.png"
   }
 ]

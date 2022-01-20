@@ -2,7 +2,7 @@ export function CartWidget({ numOfItems }) {
   return (
     <div
       role="button"
-      className="rounded-md bg-blue-600 font-bold text-2xl text-white px-6 flex items-center justify-center"
+      className="rounded-md bg-blue-600 font-bold text-2xl text-white px-6 flex items-center justify-center h-full"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

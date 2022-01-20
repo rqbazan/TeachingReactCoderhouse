@@ -3,10 +3,18 @@ import { ItemList } from './ItemList'
 
 import mockedProducts from '../mock/products.json'
 
-async function getProducts() {
+async function getProducts(query) {
   const productsPromise = new Promise((resolve) => {
     setTimeout(() => {
-      resolve(mockedProducts)
+      let resolvedProduct = mockedProducts
+
+      if (query?.categoryId) {
+        resolvedProduct = mockedProducts.filter(
+          (product) => product.categoryId === query.categoryId
+        )
+      }
+
+      resolve(resolvedProduct)
     }, 2000)
   })
 
@@ -15,14 +23,14 @@ async function getProducts() {
   return products
 }
 
-export function ItemListContainer() {
+export function ItemListContainer({ query }) {
   const [products, setProducts] = useState([])
 
   useEffect(() => {
-    getProducts().then((products) => {
+    getProducts(query).then((products) => {
       setProducts(products)
     })
-  }, [])
+  }, [query])
 
   return <ItemList products={products} />
 }
