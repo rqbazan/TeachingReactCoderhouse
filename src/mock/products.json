@@ -7,7 +7,7 @@
       "value": 80,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "hat",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/115/489/Hat-front-black__72990.1603748583.png"
   },
@@ -19,7 +19,7 @@
       "value": 249.99,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/116/512/Men-Jacket-Front-Black__15466.1603283963.png"
   },
@@ -31,7 +31,7 @@
       "value": 160.12,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/117/534/Men-TShirt-Black-Front__70046.1603748348.png"
   },
@@ -43,7 +43,7 @@
       "value": 39,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "mask",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/118/508/Surgical-Mask-Black__89554.1603756821.png"
   },
@@ -55,7 +55,7 @@
       "value": 25,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "t-shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/119/398/mockup-31b14bb5__19161.1603748166.png"
   },
@@ -67,19 +67,19 @@
       "value": 26,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "t-shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/120/402/mockup-521d0b16__86945.1603748107.png"
   },
   {
     "id": "121",
     "title": "Short-Sleeve T-Shirt",
-    "description": "<p>You've now found the staple t-shirt of your wardrobe. It's made of a thicker, heavier cotton, but it's still soft and comfy. And the double stitching on the neckline and sleeves add more durability to what is sure to be a favorite! &bull; 100% ring-spun cotton &bull; Sport Grey is 90% ring-spun cotton, 10% polyester &bull; Dark Heather is 65% polyester, 35% cotton &bull; 4.5 oz/y&sup2; (153 g/m&sup2;) &bull; Pre-shrunk &bull; Shoulder-to-shoulder taping &bull; Quarter-turned to avoid crease down the center</p>\n<div class=\"table-responsive dynamic\" data-unit-system=\"imperial\">&nbsp;</div>",
+    "description": "<p>You've now found the staple t-shirt of your wardrobe. It's made of a thicker, heavier cotton, but it's still soft and comfy. And the double stitching on the neckline and sleeves add more durability to what is sure to be a favorite! &bull; 10% ring-spun cotton &bull; Sport Grey is 90% ring-spun cotton, 10% polyester &bull; Dark Heather is 65% polyester, 35% cotton &bull; 4.5 oz/y&sup2; (153 g/m&sup2;) &bull; Pre-shrunk &bull; Shoulder-to-shoulder taping &bull; Quarter-turned to avoid crease down the center</p>\n<div class=\"table-responsive dynamic\" data-unit-system=\"imperial\">&nbsp;</div>",
     "price": {
       "value": 13.5,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "t-shirt",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/121/406/mockup-a0dc2330__62146.1601012861.png"
   },
@@ -91,19 +91,19 @@
       "value": 54,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/122/412/mockup-008b81ff__29393.1603748041.jpg"
   },
   {
     "id": "124",
     "title": "Champion Packable Jacket",
-    "description": "<p>Protect yourself from the elements with this Champion packable jacket. This wind and rain resistant polyester jacket with a detailed embroidery design has a practical hood, front kangaroo pocket, and zipped pouch pocket which you can pull out and use to scrunch the jacket into for convenient storage. &bull; 100% polyester micro poplin &bull; Wind and rain resistant &bull; Half zip pullover with a hood &bull; Front kangaroo pocket &bull; Hidden zipped pouch pocket &bull; Packable in the zipped pouch pocket &bull; Adjustable bungee draw cord at hood and bottom hem &bull; Elastic cuffs &bull; Embroidered &ldquo;C&rdquo; logo on the left sleeve</p>\n<div class=\"table-responsive dynamic\" data-unit-system=\"imperial\">&nbsp;</div>",
+    "description": "<p>Protect yourself from the elements with this Champion packable jacket. This wind and rain resistant polyester jacket with a detailed embroidery design has a practical hood, front kangaroo pocket, and zipped pouch pocket which you can pull out and use to scrunch the jacket into for convenient storage. &bull; 10% polyester micro poplin &bull; Wind and rain resistant &bull; Half zip pullover with a hood &bull; Front kangaroo pocket &bull; Hidden zipped pouch pocket &bull; Packable in the zipped pouch pocket &bull; Adjustable bungee draw cord at hood and bottom hem &bull; Elastic cuffs &bull; Embroidered &ldquo;C&rdquo; logo on the left sleeve</p>\n<div class=\"table-responsive dynamic\" data-unit-system=\"imperial\">&nbsp;</div>",
     "price": {
       "value": 51.5,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/124/415/mockup-c2bbbaf4__00019.1601229493.png"
   },
@@ -115,7 +115,7 @@
       "value": 52,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "jacket",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/125/420/mockup-7500e8eb__78586.1601229597.png"
   },
@@ -127,7 +127,7 @@
       "value": 44,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "unisex",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/126/423/mockup-9c5e3634__60853.1603747807.png"
   },
@@ -139,7 +139,7 @@
       "value": 34,
       "currencyCode": "USD"
     },
-    "stock": 100,
+    "stock": 10,
     "categoryId": "unisex",
     "pictureUrl": "https://cdn11.bigcommerce.com/s-qfzerv205w/images/stencil/original/products/127/431/mockup-9fc4c1cf__88683.1601229845.png"
   }

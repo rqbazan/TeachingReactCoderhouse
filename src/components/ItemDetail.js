@@ -1,6 +1,12 @@
+import { ItemCount } from './ItemCount'
+
 export function ItemDetail({ product }) {
+  function onAddToCart(quantity) {
+    console.log(quantity)
+  }
+
   return (
-    <div className="flex h-[500px]">
+    <div className="flex">
       <div className="relative w-1/2 bg-gray-100">
         <div className="absolute flex flex-col items-start z-10">
           <div className="text-3xl font-bold p-2 bg-gray-900 text-white">
@@ -16,12 +22,21 @@ export function ItemDetail({ product }) {
           alt={product.title}
         />
       </div>
-      <div className="w-1/2 p-10">
+      <div className="w-1/2 px-10 pt-5 flex flex-col">
         <div className="text-4xl font-bold mb-4">{product.title}</div>
         <div
           className="text-xl"
           dangerouslySetInnerHTML={{ __html: product.description }}
         />
+        <div className="flex justify-end mt-auto">
+          <div className="w-[60%]">
+            <ItemCount
+              initialValue={1}
+              maxValue={product.stock}
+              onAdd={onAddToCart}
+            />
+          </div>
+        </div>
       </div>
     </div>
   )
