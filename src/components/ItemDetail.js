@@ -1,8 +1,13 @@
 import { ItemCount } from './ItemCount'
+import { useCart } from '../hooks/useCart'
 
 export function ItemDetail({ product }) {
+  const cart = useCart()
+
+  const cartItem = cart.getItem(product.id)
+
   function onAddToCart(quantity) {
-    console.log(quantity)
+    cart.addItem({ ...product, quantity })
   }
 
   return (
@@ -31,7 +36,7 @@ export function ItemDetail({ product }) {
         <div className="flex justify-end mt-auto">
           <div className="w-[60%]">
             <ItemCount
-              initialValue={1}
+              initialValue={cartItem?.quantity}
               maxValue={product.stock}
               onAdd={onAddToCart}
             />

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useCart } from '../hooks/useCart'
 import { CartWidget } from './CartWidget'
 
 const categories = [
@@ -8,6 +9,8 @@ const categories = [
 ]
 
 export function NavBar() {
+  const cart = useCart()
+
   return (
     <header className="flex h-24 bg-gray-900 fixed top-0 w-full z-10">
       <div className="flex container mx-auto items-center px-6 md:px-0">
@@ -29,7 +32,7 @@ export function NavBar() {
         </nav>
         <div className="flex h-16 ml-auto">
           <Link to="/cart">
-            <CartWidget numOfItems={4} />
+            <CartWidget numOfItems={cart.length} />
           </Link>
         </div>
       </div>

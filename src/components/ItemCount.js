@@ -57,7 +57,7 @@ export function ItemCount({ initialValue, minValue = 1, maxValue, onAdd }) {
         </Button>
       </div>
       <Button className="mt-2" onClick={() => onAdd(count)}>
-        Agregar al Carrito
+        {initialValue ? 'Actualizar el Carrito' : 'Agregar al Carrito'}
       </Button>
     </div>
   )
