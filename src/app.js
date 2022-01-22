@@ -12,7 +12,7 @@ export default function App() {
       <BrowserRouter>
         <div className="flex flex-col">
           <NavBar />
-          <div className="flex mt-28 mx-auto container">
+          <div className="mt-28 mx-auto container">
             <Route exact path="/">
               <HomePage />
             </Route>

@@ -15,9 +15,14 @@ export function NavBar() {
     <header className="flex h-24 bg-gray-900 fixed top-0 w-full z-10">
       <div className="flex container mx-auto items-center px-6 md:px-0">
         <Link to="/">
-          <h3 className="font-mono text-white text-3xl">UndefinedShop</h3>
+          <h3 className="hidden md:inline-block font-mono text-white text-3xl">
+            UndefinedShop
+          </h3>
+          <h3 className="inline-block md:hidden font-mono text-white text-3xl">
+            U/S
+          </h3>
         </Link>
-        <nav className="flex space-x-10 mx-auto">
+        <nav className="space-x-10 ml-auto hidden md:flex">
           {categories.map((category) => {
             return (
               <Link
@@ -30,7 +35,7 @@ export function NavBar() {
             )
           })}
         </nav>
-        <div className="flex h-16 ml-auto">
+        <div className="flex h-16 ml-auto md:ml-8">
           <Link to="/cart">
             <CartWidget numOfItems={cart.length} />
           </Link>

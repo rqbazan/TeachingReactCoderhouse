@@ -21,11 +21,13 @@ export function ItemDetail({ product }) {
             {product.price.value} {product.price.currencyCode}
           </div>
         </div>
-        <img
-          className="h-full mx-auto object-contain"
-          src={product.pictureUrl}
-          alt={product.title}
-        />
+        <div className="h-[800px]">
+          <img
+            className="h-full w-full object-cover"
+            src={product.pictureUrl}
+            alt={product.title}
+          />
+        </div>
       </div>
       <div className="w-1/2 px-10 pt-5 flex flex-col">
         <div className="text-4xl font-bold mb-4">{product.title}</div>

@@ -13,7 +13,7 @@ export function Item({ product }) {
         <img
           src={product.pictureUrl}
           alt={product.title}
-          className="h-full w-full"
+          className="h-full w-full object-cover"
         />
       </div>
       <div className="absolute bottom-0 right-0 items-start">
