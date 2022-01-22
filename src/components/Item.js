@@ -1,6 +1,6 @@
 export function Item({ product }) {
   return (
-    <div className="relative min-w-[310px] h-80 bg-gray-100 z-[1] overflow-hidden">
+    <div className="relative h-80 bg-gray-100 z-[1] overflow-hidden">
       <div className="absolute flex flex-col items-start z-10">
         <div className="text-lg font-bold p-2 bg-gray-900 text-white">
           {product.title}
