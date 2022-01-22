@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { ItemDetail } from './ItemDetail'
 
 import mockedProducts from '../mock/products.json'
+import { Spinner } from './Spinner'
 
 async function getProduct(productId) {
   const productPromise = new Promise((resolve) => {
@@ -17,13 +18,26 @@ async function getProduct(productId) {
 }
 
 export function ItemDetailContainer({ productId }) {
+  const [isLoading, setIsLoading] = useState(true)
+
   const [product, setProduct] = useState()
 
   useEffect(() => {
-    getProduct(productId).then((product) => {
-      setProduct(product)
-    })
+    async function fn() {
+      setIsLoading(true)
+
+      try {
+        const product = await getProduct(productId)
+        setProduct(product)
+      } catch (error) {
+        console.error(error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    fn()
   }, [productId])
 
-  return product ? <ItemDetail product={product} /> : null
+  return isLoading ? <Spinner centered /> : <ItemDetail product={product} />
 }

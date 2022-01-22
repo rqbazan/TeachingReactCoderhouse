@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { ItemList } from './ItemList'
+import { Spinner } from './Spinner'
 
 import mockedProducts from '../mock/products.json'
 
@@ -24,13 +25,26 @@ async function getProducts(query) {
 }
 
 export function ItemListContainer({ query }) {
+  const [isLoading, setIsLoading] = useState(true)
+
   const [products, setProducts] = useState([])
 
   useEffect(() => {
-    getProducts(query).then((products) => {
-      setProducts(products)
-    })
+    async function fn() {
+      setIsLoading(true)
+
+      try {
+        const products = await getProducts(query)
+        setProducts(products)
+      } catch (error) {
+        console.error(error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    fn()
   }, [query])
 
-  return <ItemList products={products} />
+  return isLoading ? <Spinner centered /> : <ItemList products={products} />
 }
