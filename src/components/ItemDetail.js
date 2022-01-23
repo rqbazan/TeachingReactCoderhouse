@@ -13,7 +13,7 @@ export function ItemDetail({ product }) {
   return (
     <div className="flex">
       <div className="relative w-1/2 bg-gray-100">
-        <div className="absolute flex flex-col items-start z-10">
+        <div className="absolute flex flex-col items-start">
           <div className="text-3xl font-bold p-2 bg-gray-900 text-white">
             {product.title}
           </div>
