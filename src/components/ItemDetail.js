@@ -32,7 +32,7 @@ export function ItemDetail({ product }) {
       <div className="w-1/2 px-10 pt-5 flex flex-col">
         <div className="text-4xl font-bold mb-4">{product.title}</div>
         <div
-          className="text-xl"
+          className="text-xl prose"
           dangerouslySetInnerHTML={{ __html: product.description }}
         />
         <div className="flex justify-end mt-auto">

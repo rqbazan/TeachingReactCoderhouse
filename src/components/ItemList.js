@@ -7,7 +7,7 @@ export function ItemList({ products }) {
       {products.map((product) => {
         return (
           <Link key={product.id} to={`/p/${product.id}`}>
-            <Item product={product} />
+            <Item product={product} className="h-80" />
           </Link>
         )
       })}

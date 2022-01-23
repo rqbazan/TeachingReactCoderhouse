@@ -9,6 +9,15 @@ export function CartProvider({ children }) {
     get length() {
       return cartItems.reduce((r, item) => r + item.quantity, 0)
     },
+    get total() {
+      return cartItems.reduce(
+        (r, item) => r + item.quantity * item.price.value,
+        0
+      )
+    },
+    get isEmpty() {
+      return cartItems.length === 0
+    },
     getItem(cartItemId) {
       return cartItems.find((cartItem) => cartItem.id === cartItemId)
     },
