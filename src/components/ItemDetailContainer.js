@@ -1,21 +1,7 @@
 import { useEffect, useState } from 'react'
 import { ItemDetail } from './ItemDetail'
-
-import mockedProducts from '../mock/products.json'
 import { Spinner } from './Spinner'
-
-async function getProduct(productId) {
-  const productPromise = new Promise((resolve) => {
-    setTimeout(() => {
-      const product = mockedProducts.find((product) => product.id === productId)
-      resolve(product)
-    }, 2000)
-  })
-
-  const product = await productPromise
-
-  return product
-}
+import { getProductById } from '../firebase'
 
 export function ItemDetailContainer({ productId }) {
   const [isLoading, setIsLoading] = useState(true)
@@ -27,7 +13,7 @@ export function ItemDetailContainer({ productId }) {
       setIsLoading(true)
 
       try {
-        const product = await getProduct(productId)
+        const product = await getProductById(productId)
         setProduct(product)
       } catch (error) {
         console.error(error)
