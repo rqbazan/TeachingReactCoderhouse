@@ -1,19 +1,18 @@
 import { classNames } from '../utils/classNames'
 
-export function Spinner({ centered, className }) {
+export function Spinner({ centered, size = 48, className }) {
   return (
     <div
       className={classNames(
         className,
-        'text-gray-600',
         !centered && 'inline-block',
         centered && 'flex items-center justify-center'
       )}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="48"
-        height="48"
+        width={size}
+        height={size}
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"

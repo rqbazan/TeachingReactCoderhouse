@@ -17,3 +17,5 @@ export function getFirebaseApp() {
 export function getFirestore() {
   return firestore(app)
 }
+
+export { firestore }

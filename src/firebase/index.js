@@ -1,4 +1,4 @@
-import { getFirestore } from './connector'
+import { getFirestore, firestore } from './connector'
 
 function documentToProduct(document) {
   return {
@@ -40,4 +40,17 @@ export async function getProductsByCategoryId(categoryId) {
   const products = snapshot.docs.map(documentToProduct)
 
   return products
+}
+
+export async function createOrder(order) {
+  const db = getFirestore()
+
+  const document = await db.collection('orders').add({
+    buyer: order.buyer,
+    items: order.items,
+    createdAt: firestore.Timestamp.fromDate(new Date()),
+    total: order.total,
+  })
+
+  return document.id
 }

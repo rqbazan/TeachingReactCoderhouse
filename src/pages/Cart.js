@@ -1,5 +1,8 @@
 import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
+import { useForm } from 'react-hook-form'
+import { createOrder } from '../firebase'
+import { TextField } from '../components/TextField'
 import { Button } from '../components/Button'
 import { ItemImage } from '../components/Item'
 import { useCart } from '../hooks/useCart'
@@ -52,11 +55,33 @@ function CartItem({ cartItem, position, onDelete }) {
 }
 
 export function CartPage() {
+  const form = useForm()
+
   const cart = useCart()
 
   const carritoTitleEl = (
     <h1 className="mb-6 text-4xl font-semibold">Carrito</h1>
   )
+
+  async function onSubmit(formValues) {
+    try {
+      const newOrderId = await createOrder({
+        buyer: formValues,
+        items: cart.items,
+        total: cart.total.toFixed(2),
+      })
+
+      alert(`Gracias por tu compra. OrderID: ${newOrderId}`)
+
+      form.reset()
+
+      cart.clear()
+    } catch (error) {
+      alert(`Algo inesperado ha ocurrido.`)
+
+      console.error(error)
+    }
+  }
 
   if (cart.isEmpty) {
     return (
@@ -89,14 +114,48 @@ export function CartPage() {
           })}
         </div>
         <div className="flex flex-col flex-1 ml-8">
-          <h2 className="mb-8 text-3xl font-semibold">Detalle del precio</h2>
-          <div className="flex text-2xl">
-            <span className="flex-1 font-semibold">Total</span>
-            <span>{cart.total.toFixed(2)} USD</span>
-          </div>
-          <Button className="mt-8" disabled={cart.length === 0}>
-            Finalizar compra
-          </Button>
+          <section>
+            <h2 className="mb-4 text-3xl font-semibold">Detalle del precio</h2>
+            <div className="flex text-2xl">
+              <span className="flex-1 font-semibold">Total</span>
+              <span>{cart.total.toFixed(2)} USD</span>
+            </div>
+          </section>
+          <section className="mt-12">
+            <h2 className="mb-4 text-3xl font-semibold">Completar pedido</h2>
+            <form
+              onSubmit={form.handleSubmit(onSubmit)}
+              className="flex flex-col space-y-4"
+            >
+              <TextField
+                title="Nombre"
+                inputProps={{
+                  placeholder: 'Juan Perez',
+                  ...form.register('name', { required: true }),
+                }}
+              />
+              <TextField
+                title="Correo"
+                inputProps={{
+                  placeholder: 'me@example.com',
+                  ...form.register('email', { required: true }),
+                }}
+              />
+              <TextField
+                title="Telefono"
+                inputProps={{
+                  placeholder: '990000123',
+                  ...form.register('phone', { required: true }),
+                }}
+              />
+              <Button
+                disabled={cart.length === 0}
+                isLoading={form.formState.isSubmitting}
+              >
+                Finalizar compra
+              </Button>
+            </form>
+          </section>
         </div>
       </div>
     </Fragment>
