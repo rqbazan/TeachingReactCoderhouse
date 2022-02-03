@@ -65,11 +65,15 @@ export function CartPage() {
 
   async function onSubmit(formValues) {
     try {
-      const newOrderId = await createOrder({
+      console.log({ formValues })
+
+      const newOrderData = {
         buyer: formValues,
         items: cart.items,
         total: cart.total.toFixed(2),
-      })
+      }
+
+      const newOrderId = await createOrder(newOrderData)
 
       alert(`Gracias por tu compra. OrderID: ${newOrderId}`)
 
@@ -131,21 +135,24 @@ export function CartPage() {
                 title="Nombre"
                 inputProps={{
                   placeholder: 'Juan Perez',
-                  ...form.register('name', { required: true }),
+                  required: true,
+                  ...form.register('name'),
                 }}
               />
               <TextField
                 title="Correo"
                 inputProps={{
                   placeholder: 'me@example.com',
-                  ...form.register('email', { required: true }),
+                  required: true,
+                  ...form.register('email'),
                 }}
               />
               <TextField
                 title="Telefono"
                 inputProps={{
                   placeholder: '990000123',
-                  ...form.register('phone', { required: true }),
+                  required: true,
+                  ...form.register('phone'),
                 }}
               />
               <Button
