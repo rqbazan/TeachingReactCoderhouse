@@ -65,8 +65,6 @@ export function CartPage() {
 
   async function onSubmit(formValues) {
     try {
-      console.log({ formValues })
-
       const newOrderData = {
         buyer: formValues,
         items: cart.items,

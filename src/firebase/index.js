@@ -69,7 +69,6 @@ export async function createOrder(order) {
   })
 
   if (productsOutOfStock.length !== 0) {
-    console.log({ productsOutOfStock })
     throw Error('No hay stock suficiente')
   }
 
